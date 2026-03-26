@@ -11,7 +11,7 @@ function preload() {
 }
 function setup() {
   createCanvas(windowWidth, windowHeight);
-    background(142,69,133);
+    background(170, 51, 107);
     messageX = width;
     lyricsX = width;    
   angleMode(DEGREES);
