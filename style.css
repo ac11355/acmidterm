@@ -1,0 +1,21 @@
+#floatLink {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  
+  color: rgb(255, 255, 143);
+  font-size: 10px;
+  text-decoration: none;
+}
+
+#floatLink:hover {
+  color: red;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* This prevents scrollbars from appearing */
+  background-color: white; /* Ensures the page matches your canvas */
+}
